@@ -77,13 +77,13 @@ class SearchBooks extends Component {
                 <div className="search-books-results">
                     <ol className="books-grid">
 
-                    {(this.state.Result && this.state.Result.error!== 'empty query' ) && this.state.Result.map((Book) => (
+                     {this.state.Result.map((Book) => (
                                     <li key={Book.id}>
                                         <BookCard key={Book.id} onChangeBook = {onChangeBook} Book = {Book}/>
                                     </li>
-                                ))
+                                ))}
                                 
-                                }
+                                
                     </ol>
                 </div>
           </div>    

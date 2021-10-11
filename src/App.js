@@ -19,30 +19,19 @@ class BooksApp extends Component {
 
   BooksList = ()=>{
     BooksAPI.getAll().then((MyBooks) => {
-      // console.log(MyBooks)
       this.setState({ MyBooks })
     })
   }
 
   UpdateBook = ( Book,shelf)=>{
     BooksAPI.update(Book, shelf).then((Books)=>{
-      // console.log(Books)
       this.BooksList()
     })
-    // console.log(Book)
   }
 
   
 
-  // SearchBooks = ( query )=>{
-  //   BooksAPI.search(query).then((searchResult)=>{
-  //     console.log(searchResult)
-  //     this.setState({ searchResult })
-  //     // this.BooksList()
-  //   })
-  //   // console.log(Book)
-  // }
-
+ 
   
 
   render() {
