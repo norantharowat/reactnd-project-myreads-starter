@@ -183,6 +183,11 @@ button:active {
   opacity: 0;
   cursor: pointer;
 }
+option:checked {
+   font-weight: 800; 
+   
+  
+}
 
 /* book cover */
 
