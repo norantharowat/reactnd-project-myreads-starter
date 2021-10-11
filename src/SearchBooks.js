@@ -16,7 +16,6 @@ class SearchBooks extends Component {
         if(query.length > 0){
 
             BooksAPI.search(query).then((searchResult)=>{
-            console.log(searchResult)
             if(searchResult.error){
                 this.setState({ Result: [] })
             }else{
@@ -35,8 +34,6 @@ class SearchBooks extends Component {
    
     render() {
         const {Mybooks , onChangeBook} = this.props
-        console.log(Mybooks)
-        // onSearch(this.state.query)
         this.state.Result.forEach((resultedBook) => {
             Mybooks.forEach((Book) => { 
                 if(Book.id === resultedBook.id){
