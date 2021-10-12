@@ -15,14 +15,14 @@ To run the application navigate to the project folder after cloning it and do th
 ## Application Featres
 
 * View your library and see what books you have in each shelf
-![screenshot1](./public/images/1.png)
-![screenshot2](./public/images/2.png)
+![screenshot1](./public/images/1.PNG)
+![screenshot2](./public/images/2.PNG)
 
 * When you click on the add (+) buttonyou can search for new books and add them to your library
 ![screenshot3](./public/images/3.png)
 
 * You can see the book tou added when returning to the home page
-![screenshot4](./public/images/4.png)
+![screenshot4](./public/images/4.jpg)
 
 ## Backend Server
 
